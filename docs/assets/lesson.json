@@ -1,0 +1,80 @@
+{
+  "places": [
+    {
+      "id": "school",
+      "name": "전주교육대학교전주부설초등학교",
+      "category": "학교",
+      "lat": 35.808475,
+      "lon": 127.151161,
+      "description": "깃발 기호로 표시한 우리 학교"
+    },
+    {
+      "id": "library",
+      "name": "완산도서관",
+      "category": "도서관",
+      "lat": 35.808763,
+      "lon": 127.147723,
+      "description": "펼친 책 기호로 표시한 도서관"
+    },
+    {
+      "id": "dongseohak",
+      "name": "동서학동 주민센터",
+      "category": "주민센터",
+      "lat": 35.8095016,
+      "lon": 127.152243,
+      "description": "집 기호로 표시한 동서학동 주민센터"
+    },
+    {
+      "id": "seoseohak",
+      "name": "서서학동 주민센터",
+      "category": "주민센터",
+      "lat": 35.8057566,
+      "lon": 127.1486909,
+      "description": "집 기호로 표시한 서서학동 주민센터"
+    }
+  ],
+  "missions": [
+    {
+      "id": "1",
+      "question": "완산도서관은 우리 학교보다 동쪽에 있나요, 서쪽에 있나요?",
+      "choices": [
+        "동쪽",
+        "서쪽"
+      ],
+      "answer": "서쪽",
+      "explanation": "북쪽이 위인 지도에서 서쪽은 왼쪽이에요. 완산도서관은 우리 학교보다 왼쪽에 있어요."
+    },
+    {
+      "id": "2",
+      "question": "서서학동 주민센터는 완산도서관보다 북쪽에 있나요, 남쪽에 있나요?",
+      "choices": [
+        "북쪽",
+        "남쪽"
+      ],
+      "answer": "남쪽",
+      "explanation": "북쪽이 위인 지도에서 남쪽은 아래쪽이에요. 서서학동 주민센터는 완산도서관보다 아래쪽에 있어요."
+    }
+  ],
+  "sources": [
+    {
+      "name": "전주교육대학교전주부설초등학교 위치 안내",
+      "url": "https://school.jbedu.kr/jjbs/M010208/index.do"
+    },
+    {
+      "name": "전국전동휠체어급속충전기표준데이터 (주민센터 위치)",
+      "url": "https://www.data.go.kr/data/15034533/standard.do"
+    },
+    {
+      "name": "완산도서관 위치 · OpenStreetMap",
+      "url": "https://api.openstreetmap.org/api/0.6/node/368658481.json"
+    },
+    {
+      "name": "OpenStreetMap 저작권 및 라이선스",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "name": "2022 개정 교육과정 학습 지도 MCP",
+      "url": "https://github.com/taehyeonglim/korean-elementary-learning-map-mcp"
+    }
+  ]
+}
